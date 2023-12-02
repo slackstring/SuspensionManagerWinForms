@@ -15,12 +15,12 @@ namespace WindowsFormsApp1
         string Manufacturer { get; set; }
         string Model { get; set; }
         int ModelYear { get; set; }
-
+        string DamperOil { get; set; }
+        int LscClicks { get; set; }
+        int HscClicks { get; set; }
+        int HsrClicks { get; set; }
+        int LsrClicks { get; set; }
         
-
-        
-
-
 
 
     }

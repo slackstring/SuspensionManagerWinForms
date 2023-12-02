@@ -1,0 +1,11 @@
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\SuspensionManagerWinForms.csproj.AssemblyReference.cache
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\SuspensionManagerWinForms.csproj.SuggestedBindingRedirects.cache
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProfileLoadMenu.resources
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\SuspensionManagerWinForms.csproj.GenerateResource.cache
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\SuspensionManagerWinForms.csproj.CoreCompileInputs.cache
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
