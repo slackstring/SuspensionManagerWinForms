@@ -72,6 +72,7 @@
             this.btnProfileLoadMenu.TabIndex = 3;
             this.btnProfileLoadMenu.Text = "create profile";
             this.btnProfileLoadMenu.UseVisualStyleBackColor = false;
+            this.btnProfileLoadMenu.Click += new System.EventHandler(this.btnProfileLoadMenu_Click);
             // 
             // btnProfileLoadMenu_Load
             // 
