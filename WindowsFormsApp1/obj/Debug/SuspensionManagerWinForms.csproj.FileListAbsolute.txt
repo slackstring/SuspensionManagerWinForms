@@ -9,3 +9,4 @@ D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\Suspension
 D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\SuspensionManagerWinForms.csproj.CoreCompileInputs.cache
 D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\[programming]\SuspensionManagerWinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProfileOverviewMenu.resources

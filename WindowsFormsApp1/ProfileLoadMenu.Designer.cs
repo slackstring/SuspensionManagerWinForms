@@ -52,10 +52,11 @@
             // tbProfileLoadMenu_Create
             // 
             this.tbProfileLoadMenu_Create.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tbProfileLoadMenu_Create.Font = new System.Drawing.Font("Roboto Lt", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbProfileLoadMenu_Create.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.tbProfileLoadMenu_Create.Location = new System.Drawing.Point(560, 121);
             this.tbProfileLoadMenu_Create.Name = "tbProfileLoadMenu_Create";
-            this.tbProfileLoadMenu_Create.Size = new System.Drawing.Size(227, 20);
+            this.tbProfileLoadMenu_Create.Size = new System.Drawing.Size(227, 21);
             this.tbProfileLoadMenu_Create.TabIndex = 2;
             this.tbProfileLoadMenu_Create.Text = "profile name";
             // 
@@ -79,7 +80,7 @@
             this.btnProfileLoadMenu_Load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnProfileLoadMenu_Load.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
             this.btnProfileLoadMenu_Load.FlatAppearance.BorderSize = 2;
-            this.btnProfileLoadMenu_Load.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfileLoadMenu_Load.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfileLoadMenu_Load.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.btnProfileLoadMenu_Load.Location = new System.Drawing.Point(560, 468);
             this.btnProfileLoadMenu_Load.Name = "btnProfileLoadMenu_Load";
@@ -87,14 +88,18 @@
             this.btnProfileLoadMenu_Load.TabIndex = 4;
             this.btnProfileLoadMenu_Load.Text = "load profile";
             this.btnProfileLoadMenu_Load.UseVisualStyleBackColor = false;
+            this.btnProfileLoadMenu_Load.Click += new System.EventHandler(this.btnProfileLoadMenu_Load_Click);
             // 
             // lbProfileLoadMenu_profiles
             // 
             this.lbProfileLoadMenu_profiles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbProfileLoadMenu_profiles.Font = new System.Drawing.Font("Roboto Lt", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProfileLoadMenu_profiles.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.lbProfileLoadMenu_profiles.FormattingEnabled = true;
+            this.lbProfileLoadMenu_profiles.ItemHeight = 15;
             this.lbProfileLoadMenu_profiles.Location = new System.Drawing.Point(322, 121);
             this.lbProfileLoadMenu_profiles.Name = "lbProfileLoadMenu_profiles";
-            this.lbProfileLoadMenu_profiles.Size = new System.Drawing.Size(200, 355);
+            this.lbProfileLoadMenu_profiles.Size = new System.Drawing.Size(200, 349);
             this.lbProfileLoadMenu_profiles.TabIndex = 5;
             // 
             // ProfileLoadMenu

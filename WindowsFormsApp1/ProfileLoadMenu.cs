@@ -16,9 +16,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             RefreshListbox();
-            //TODO OneNote mit der letzten Session füllen 
-            //TODO Listbox grafisch bearbeiten
-            //profile Laden implementieren
+            
         }
 
         private void btnProfileLoadMenu_Click(object sender, EventArgs e)
@@ -44,6 +42,34 @@ namespace WindowsFormsApp1
                 lbProfileLoadMenu_profiles.Items.Clear();
                 lbProfileLoadMenu_profiles.Items.AddRange(profileFiles);
             }
+        }
+
+        private void btnProfileLoadMenu_Load_Click(object sender, EventArgs e)
+        {
+            if (lbProfileLoadMenu_profiles.SelectedItem!= null)
+            {
+                string selProfileName = lbProfileLoadMenu_profiles.SelectedItem.ToString();        
+                selProfileName = selProfileName.Substring(0, selProfileName.Length - 4);
+                if (ProfileManager.CheckIfProfileExists(selProfileName))
+                {
+                    ProfileManager.LoadProfile(selProfileName);
+                    MessageBox.Show("Profile was loaded succesfully!");
+                    ProfileOverviewMenu profileOverview = new ProfileOverviewMenu();
+                    profileOverview.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Profile does not exist");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Select a profile first!");
+            }
+
+            
+
         }
     }
 }
