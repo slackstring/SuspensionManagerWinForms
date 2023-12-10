@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
         public Profile(string profileName)
         {
             ProfileName = profileName;
+            SuspensionElements = new List<SuspensionElement>();
         }
     }
 }

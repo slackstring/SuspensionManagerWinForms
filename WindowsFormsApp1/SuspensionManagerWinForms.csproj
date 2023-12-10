@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirFork.cs" />
-    <Compile Include="AirShock.cs" />
-    <Compile Include="CoilFork.cs" />
-    <Compile Include="CoilShock.cs" />
+    <Compile Include="SettingAirFork.cs" />
+    <Compile Include="SettingAirShock.cs" />
+    <Compile Include="SettingCoilFork.cs" />
+    <Compile Include="SettingCoilShock.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="ProfileLoadMenu.cs">
       <SubType>Form</SubType>
@@ -61,6 +61,7 @@
     <Compile Include="ProfileManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting.cs" />
     <Compile Include="SuspensionElement.cs" />
     <Compile Include="ProfileOverviewMenu.cs">
       <SubType>Form</SubType>
