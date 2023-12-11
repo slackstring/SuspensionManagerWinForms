@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
             Length = length;
             Stroke = stroke;
             SuspensionTyp = suspensionTyp;
+            Settings = new List<Setting>();         
         }
 
 
