@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
         //properties
         public string ProfileName { get; private set; }
         public List<SuspensionElement> SuspensionElements { get; set; }
+        public SuspensionElement CurrentSusElement { get; set; }
 
         // Konstruktor
         public Profile(string profileName)
